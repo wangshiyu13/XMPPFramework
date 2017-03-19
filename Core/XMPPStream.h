@@ -3,12 +3,8 @@
 #import "XMPPCustomBinding.h"
 #import "GCDMulticastDelegate.h"
 
-
 #import <KissXML/KissXML.h>
-@import CocoaAsyncSocket;
-
-//#import <KissXML/KissXML.h>
-//#import <CocoaAsyncSocket/GCDAsyncSocket.h>
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 
 
 @class XMPPSRVResolver;

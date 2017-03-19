@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'XMPPFramework'
-  s.version = '3.7.0'
+  s.version = '3.7.1'
 
   s.osx.deployment_target = '10.9'
   s.ios.deployment_target = '8.0'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.summary = 'An XMPP Framework in Objective-C for the Mac / iOS development community.'
   s.homepage = 'https://github.com/robbiehanson/XMPPFramework'
   s.author = { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
-  s.source = { :git => 'https://github.com/robbiehanson/XMPPFramework.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/wangshiyu13/XMPPFramework.git', :tag => s.version }
   # s.source = { :git => 'https://github.com/robbiehanson/XMPPFramework.git', :branch => 'master' }
   s.resources = [ '**/*.{xcdatamodel,xcdatamodeld}']
 
@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
   }
   s.dependency 'CocoaLumberjack' # Skip pinning version because of the awkward 2.x->3.x transition
   s.dependency 'CocoaAsyncSocket', '~> 7.6.0'
-  s.dependency 'KissXML', '~> 5.2.0'
+  s.dependency 'KissXML', "~> 5.2.0"
   s.dependency 'libidn', '~> 1.33.0'
 end
